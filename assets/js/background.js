@@ -1,4 +1,4 @@
-var url = 'https://www.google.com/searchbyimage?image_url=';
+var url = 'https://www.google.com/searchbyimage?sbisrc=4chanx&image_url=';
 
 chrome.contextMenus.onClicked.addListener(function(info, tab){
 	chrome.tabs.create({
